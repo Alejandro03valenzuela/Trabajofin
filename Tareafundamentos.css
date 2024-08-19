@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url("/pattern.png");
+}
+
+header {
+    background-color: #A593C2;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+header img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+h1 {
+    text-align: center;
+    color: #A593C2;
+    margin: 20px 0;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-column {
+    width: 30%;
+    text-align: center;
+}
+
+.right-column {
+    width: 65%;
+    margin-left: 5%;
+}
+
+.logo-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="submit"] {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: left;
+    padding: 20px;
+    background-color: #a64d79;
+    color: white;
+}
